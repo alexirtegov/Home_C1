@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 		return 0;
 	}
 if (number < 0) 
-number = -number;
+number = -number;1
 /*
 Например возьмем число 1223
 мы будем искать две последовательных цифры, обозначим их A и B
