@@ -182,7 +182,9 @@ int main(int argc, char **argv)
 	printf ("\nSort by Date: \n");
 	Print(info, Count);
 	
-	
+	    for(int i=0; i<argc; i++)
+        printf("argc = %d, argv = %s\n", i, argv[i]);
+    return 0;
 	
 	return 0;
 }
